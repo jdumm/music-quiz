@@ -5,6 +5,17 @@ Play a music quiz game generated from your own Spotify playlists, Liked Songs, o
  
 Current iteration: Execute the python script `music_quiz.py` to play!
 
+```
+python music_quiz.py
+```
+
+## Production Note:
+
+After discovering <a href='whisperify.net'>Whisperify</a>, I'm shutting down this project and
+ looking to contribute to that open source project instead. I'll leave this repository open for
+  any fans of using Spotify APIs through <a href='https://spotipy.readthedocs.io/'>Spotipy's</a> 
+   Python interface.
+
 
 ## Mission Statement
 
@@ -19,14 +30,12 @@ This game is designed to help you learn and remember more about the music you al
 
 ## Installation
 
-More notes will come as this project evolves.  For now, you can install all the requirements
- locally using:
+You can install all the requirements locally using:
 ```
 pip install -r requirements.txt    
 ```
 
-But the steps on creating a Spotify App are left out for now.
-
+The steps for creating your own app and obtaining client credentials are from <a href='https://developer.spotify.com/documentation/web-api/quick-start/'> Spotify's Guide</a>.
 
 ## Open Source MIT License
 

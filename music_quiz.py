@@ -70,8 +70,10 @@ def music_quiz(playlist_candidates=None, exclude_saved=False, exclude_top=False)
             continue
         prev_names.append(right_name)
 
+        # TODO: Catch error about No Device here?
         sp.start_playback(uris=[right_track['uri']])
 
+        # TODO: Selecting multiple choice from same artists could up the difficulty!
         # Stub code for randomly selecting 'wrong' track candidates from the same artist:
         # artist_uri = right_track['artists'][0]['uri']
         # tt = sp.artist_top_tracks(artist_uri)
@@ -129,6 +131,6 @@ if __name__ == '__main__':
     candidate_playlists = ['Discover Weekly', 'Liked from Radio']
     # candidate_playlists = ['Bday']
     music_quiz(playlist_candidates=candidate_playlists,
-               exclude_saved=True,
-               exclude_top=True
+               exclude_saved=False,
+               exclude_top=False
                )
