@@ -11,7 +11,7 @@ python music_quiz.py
 
 ## Production Note:
 
-After discovering <a href='whisperify.net'>Whisperify</a>, I'm shutting down this project and
+After discovering <a href='http://whisperify.net'>Whisperify</a>, I'm shutting down this project and
  looking to contribute to that open source project instead. I'll leave this repository open for
   any fans of using Spotify APIs through <a href='https://spotipy.readthedocs.io/'>Spotipy's</a> 
    Python interface.
